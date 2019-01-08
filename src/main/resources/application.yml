@@ -1,0 +1,23 @@
+spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    data-username: root
+#    data-password: 151866
+#    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8
+  mvc:
+      view :
+        prefix: /
+        suffix: .jsp
+server:
+  port: 8080
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
+#info:
+#  app:
+#    name: @project.artifactId@
+#    encoding: @project.build.sourceEncoding@
+#    java:
+#      source: @java.version@
+#      target: @java.version@
